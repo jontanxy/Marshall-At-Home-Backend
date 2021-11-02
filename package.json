@@ -1,0 +1,37 @@
+{
+  "name": "nodejs-express-template",
+  "version": "1.0.0",
+  "description": "Nodejs Express Template",
+  "main": "src/index.js",
+  "scripts": {
+    "start:dev": "NODE_ENV=development nodemon src/index.js",
+    "start": "NODE_ENV=production node src/index.js"
+  },
+  "repository": "git+https://github.com/jontanxy/Nodejs-Express-template.git",
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Backend",
+    "Tempalate"
+  ],
+  "author": "Jon Tan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jontanxy/Nodejs-Express-template/issues"
+  },
+  "homepage": "https://github.com/jontanxy/Nodejs-Express-template#readme",
+  "devDependencies": {
+    "eslint": "^8.1.0",
+    "jest": "^27.3.1",
+    "nodemon": "^2.0.14"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "winston": "^3.3.3"
+  }
+}
