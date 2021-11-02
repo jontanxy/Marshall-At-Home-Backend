@@ -1,2 +1,2 @@
-# Marshall-At-Home-Backend
-Recreation of my final year project
+# About
+This is my node js preference template and configurations.
